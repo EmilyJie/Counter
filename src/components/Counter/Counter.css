@@ -1,0 +1,29 @@
+.counter {
+    height: 30vh;
+}
+.btn-container {
+    width: 30vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn-count, .btn-toggle{
+    padding: 10px 25px;
+    border-style: none;
+    background-color: #5580A0;
+    border-radius: 20px;
+    color: #fff;
+}
+.btn-count:hover {
+    background-color: #CC8A4D;
+    color: #fff;
+}
+.btn-count:active {
+    background-color: #BDBDBF;
+}
+.btn-toggle {
+    background-color: #7f4242;
+    margin-top: 25px;
+}
+.btn-toggle:hover {
+    background-color: #BDBDBF;
+}
